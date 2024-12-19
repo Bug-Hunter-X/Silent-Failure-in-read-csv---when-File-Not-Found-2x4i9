@@ -1,0 +1,1 @@
+This repository demonstrates a common yet easily missed error in R: the silent failure of `read.csv()` when attempting to read a file that doesn't exist.  The `bug.R` file shows the problematic code.  The solution, found in `bugSolution.R`, demonstrates how to robustly handle this situation using error handling.
